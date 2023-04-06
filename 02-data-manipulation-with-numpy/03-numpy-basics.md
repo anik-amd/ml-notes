@@ -185,3 +185,9 @@ array([[1., 1.],
 array([[1, 1],
        [1, 1]], dtype=int32)
 ```
+
+# Reference
+
+- [NumPy Docs](https://numpy.org/doc/stable/)
+
+- [Machine Learning with NumPy, pandas, scikit-learn, and More](https://www.educative.io/courses/machine-learning-numpy-pandas-scikit-learn)
