@@ -99,3 +99,9 @@ print(repr(np.matmul(arr4, arr3)))
 # This will result in a ValueError: If we uncomment line 10 and run again.
 #print(repr(np.matmul(arr3, arr3)))
 ```
+
+# Reference
+
+- [NumPy Docs](https://numpy.org/doc/stable/)
+
+- [Machine Learning with NumPy, pandas, scikit-learn, and More](https://www.educative.io/courses/machine-learning-numpy-pandas-scikit-learn)
