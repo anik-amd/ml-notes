@@ -96,6 +96,52 @@ True
 False
 ```
 
+Below, function replaces each of the non-positive elements in data with 0. We first create an array of all 0's, with the same shape as data.
+
+Then we filter the data array and replace the non-positive elements with the corresponding element from zeros (which will be a 0).
+
+Set zeros equal to np.zeros_like with data as the lone argument.
+
+Set zero_replace equal to np.where with the condition of data > 0. The second argument will be data and the third argument will be zeros.
+
+Return zero_replace.
+
+```py
+def replace_zeros(data):
+  # CODE HERE
+  zeros = np.zeros_like(data)
+  zero_replace = np.where(data > 0, data, zeros)
+  return zero_replace
+  pass
+```
+
+**Output:**
+
+```py
+[[19 20  0  0  1],
+ [ 9  2  0  0  0],
+ [ 0 19 11  2  2],
+ [ 1  0  0  0  4]]
+```
+
+Broadcasting with `-1`:
+
+```py
+def replace_neg_one(data):
+  neg_one_replace = np.where(data > 0, data, -1)
+  return neg_one_replace
+  pass
+```
+
+**Output:**
+
+```py
+[[19 20 -1 -1  1],
+ [ 9  2 -1 -1 -1],
+ [-1 19 11  2  2],
+ [ 1 -1 -1 -1  4]]
+```
+
 ### Multidimension arrays
 
 ```py
