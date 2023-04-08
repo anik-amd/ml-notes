@@ -31,7 +31,7 @@ array([1, 2, 3, 4])
 array([4, 5])
 ```
 
-### Multidimentional Array
+### Multidimensional Array
 
 ```py
 arr = np.array([[1, 2, 3],
@@ -76,7 +76,7 @@ print(np.argmin(arr))
 
 ### Axis
 
-The `np.argmin` and `np.argmax` functions take the same arguments. The required argument is the input array and the axis keyword argument specifies which dimension to apply the operation on.
+The `np.argmin` and `np.argmax` functions take the same arguments. The required argument is the input array, and the axis keyword argument specifies which dimension to apply the operation on.
 
 ```py
 arr = np.array([[-2, -1, -3],
