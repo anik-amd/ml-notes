@@ -87,6 +87,8 @@ print(repr(np.argmin(arr, axis=1)))
 print(repr(np.argmax(arr, axis=-1)))
 ```
 
+Note that `axis=0` is column-wise, and `axis=1` is row-wise.
+
 # Reference
 
 - [NumPy Docs](https://numpy.org/doc/stable/)
