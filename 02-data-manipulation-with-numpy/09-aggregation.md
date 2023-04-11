@@ -41,3 +41,9 @@ array([[-15,   6,   1,   0,  72,   3],
        [  8,   9,  -4,   1,   3, -60],
        [  5, -21,  18,  -3,  -2,   4]])
 ```
+
+# Reference
+
+- [NumPy Docs](https://numpy.org/doc/stable/)
+
+- [Machine Learning with NumPy, pandas, scikit-learn, and More](https://www.educative.io/courses/machine-learning-numpy-pandas-scikit-learn)
