@@ -1,3 +1,4 @@
 {
-  "languageToolLinter.languageTool.ignoredWordsInWorkspace": []
+  "languageToolLinter.languageTool.ignoredWordsInWorkspace": [],
+  "typewriterAutoScroll.enable": true
 }
